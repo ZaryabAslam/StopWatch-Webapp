@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch By Zaryab Aslam</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <rect width="100%" height="100%" fill="#777"></rect>
+    <div>
+        <h1 id="heading">
+            <U>STOP WATCH BY ZARYAB ASLAM</U>
+        </h1>
+    </div>
+    <div class="container">
+        <div>
+            <h1 id="hours">00 hours</h1>
+            <h1 id="mints">00 mints</h1>
+            <h1 id="sec">00 sec</h1>
+            <h1 id="milisec">00 millisec</h1>
+        </div>
+        <div>
+            <button onclick="startwatch()" id="start">Start</button>
+            <button onclick="stopwatch()" id="stop">Stop</button>
+            <button type="reset" onclick="resetwatch()" id="reset">Reset</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
